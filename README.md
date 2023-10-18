@@ -1,4 +1,4 @@
-# Software Name: 7bl Compressor with Encryption
+# 7bl Compressor with Encryption
 
 **Author:** Luca Bocaletto
 
