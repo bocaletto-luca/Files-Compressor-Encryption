@@ -1,4 +1,4 @@
-# 7bl Compressor with Encryption
+# Files Compressor with Encryption
 
 **Author:** Luca Bocaletto
 
