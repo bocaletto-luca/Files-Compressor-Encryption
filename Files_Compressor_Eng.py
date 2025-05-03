@@ -1,4 +1,4 @@
-# Name Software: 7bl Compressor with Encryption
+# Name Software: Files Compressor with Encryption
 # Author: Luca Bocaletto
 # Description: This software provides the ability to compress, encrypt, and extract files.
 # It allows users to select files to archive or extract, specify an encryption key, and generate encrypted archives.
@@ -17,7 +17,7 @@ from cryptography.fernet import InvalidToken
 class SevenBLCompressor:
     def __init__(self, window):
         self.window = window
-        self.window.title("7bl Compressor with Encryption")  # Set the window title
+        self.window.title("Files Compressor with Encryption")  # Set the window title
         self.window.configure(bg="#f5f5f5")  # Set the background color of the window
 
         # Create and position user interface elements
