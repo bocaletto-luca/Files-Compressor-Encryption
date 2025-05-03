@@ -2,10 +2,8 @@
 
 #### Author: Luca Bocaletto
 #### Language: Python
+
 ----
-
-![Screenshot 2023-10-18 125051](https://github.com/elektronoide/7bl-Compressor-Encryption/assets/134635227/90a088c6-4786-47f9-a6f3-5d782186da04)
-
 ## Description
 
 This software is designed to help users compress and encrypt their files, making them more secure and reducing the required storage space. Here are the main features offered:
@@ -15,6 +13,8 @@ This software is designed to help users compress and encrypt their files, making
 - **Encrypt files:** The software allows users to specify an encryption key. It then uses the Fernet cryptography library to encrypt the compressed data. Encryption provides an additional level of security to the files, protecting them from unauthorized access.
 
 - **Extract files:** Users can also use the software to extract files from an encrypted archive. This operation involves decrypting the data and decompressing the files in the archive.
+
+![Screenshot 2023-10-18 125051](https://github.com/elektronoide/7bl-Compressor-Encryption/assets/134635227/90a088c6-4786-47f9-a6f3-5d782186da04)
 
 ### Management of Archived File Extension
 
