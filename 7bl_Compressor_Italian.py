@@ -1,4 +1,4 @@
-# Nome Software: 7bl Compressore con Crittografia
+# Nome Software: Files Compressore con Crittografia
 # Autore: Bocaletto Luca
 # Descrizione: Questo software offre la possibilità di comprimere, crittografare ed estrarre file. 
 # Consente agli utenti di selezionare file da archiviare o da cui estrarre, specificare una chiave di crittografia,
@@ -17,7 +17,7 @@ from cryptography.fernet import InvalidToken
 class SevenBLCompressor:
     def __init__(self, window):
         self.window = window
-        self.window.title("7bl Compressore con Crittografia")  # Imposta il titolo della finestra
+        self.window.title("Files Compressore con Crittografia")  # Imposta il titolo della finestra
         self.window.configure(bg="#f5f5f5")  # Imposta il colore di sfondo della finestra
 
         # Creazione e posizionamento degli elementi dell'interfaccia utente
