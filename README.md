@@ -1,7 +1,8 @@
 # Files Compressor with Encryption
 
-**Author:** Luca Bocaletto
-**Language:** Python
+#### Author: Luca Bocaletto
+#### Language: Python
+----
 
 ![Screenshot 2023-10-18 125051](https://github.com/elektronoide/7bl-Compressor-Encryption/assets/134635227/90a088c6-4786-47f9-a6f3-5d782186da04)
 
