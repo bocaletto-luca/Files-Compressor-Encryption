@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Files Compressor with Encryption – Secure & Compress Your Data | Bocaletto</title>
+  <meta name="description" content="Files Compressor with Encryption is an open-source Python tool to compress and encrypt files into secure archives using zlib and Fernet.">
+  <meta name="keywords" content="file compression, encryption, Python, zlib, Fernet, secure archive, GUI, tkinter">
+  <meta name="author" content="Bocaletto Luca">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://github.com/bocaletto-luca/Files-Compressor-Encryption">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Files Compressor with Encryption – Secure & Compress Your Data">
+  <meta property="og:description" content="Compress and encrypt your files into .7bl archives with a simple Python GUI. Secure data with zlib + Fernet.">
+  <meta property="og:url" content="https://github.com/bocaletto-luca/Files-Compressor-Encryption">
+  <meta property="og:site_name" content="Files Compressor with Encryption">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Files Compressor with Encryption – Secure & Compress Your Data">
+  <meta name="twitter:description" content="Open-source Python app to compress, encrypt & extract files using zlib and Fernet.">
+
+  <!-- GitHub Markdown CSS -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css"
+        integrity="sha512-1tV2HpYPXDWZ2U8dGBwS3OWg0doP+2hT0f5Sm5aUnRpxYgiK7g+K1/L0N0o+7vL8VtPrTzZgr9wKbI6mJRwrDw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 1rem;
+      background: #f6f8fa;
+      color: #24292e;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 { margin-top: 0; font-size: 2rem; }
+    h2 { margin-top: 2rem; font-size: 1.5rem; }
+    p, ul, ol { margin-bottom: 1rem; }
+    ul, ol { padding-left: 1.2rem; }
+    pre {
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    code {
+      background: #f0f0f0;
+      padding: .2rem .4rem;
+      border-radius: 4px;
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    img.screenshot {
+      display: block;
+      max-width: 100%;
+      margin: 1rem 0;
+      border: 1px solid #e1e4e8;
+      border-radius: 4px;
+    }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    @media (max-width: 600px) {
+      body { padding: .5rem; }
+      .container { padding: 1rem; }
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e1e4e8;
+      text-align: center;
+      font-size: .9rem;
+      color: #57606a;
+    }
+    footer a { margin: 0 .5rem; color: inherit; }
+  </style>
+</head>
+
+<body class="markdown-body">
+  <div class="container">
+    <h1>Files Compressor with Encryption</h1>
+    <p><em>Compress your files and secure them with encryption in one simple Python app.</em></p>
+
+    <p><strong>Author:</strong> Luca Bocaletto</p>
+    <p><strong>License:</strong> GPLv3 &nbsp;|&nbsp; <a href="LICENSE">View LICENSE</a></p>
+    <p><strong>Source:</strong> <a href="https://github.com/bocaletto-luca/Files-Compressor-Encryption">GitHub Repository</a></p>
+
+    <h2>Description</h2>
+    <p>This tool lets you compress, encrypt, and extract archives in a single workflow:</p>
+    <ul>
+      <li><strong>Compress:</strong> Uses <code>zlib</code> at highest compression to shrink your files.</li>
+      <li><strong>Encrypt:</strong> Secures compressed data with <code>Fernet</code> symmetric encryption.</li>
+      <li><strong>Extract:</strong> Decrypts and decompresses archives back to original files.</li>
+    </ul>
+
+    <h2>Screenshots</h2>
+    <!-- Replace with your hosted image URLs -->
+    <img class="screenshot" src="PATH_TO_SCREENSHOT_1.png" alt="Main interface screenshot">
+    <img class="screenshot" src="PATH_TO_SCREENSHOT_2.png" alt="Compression settings screenshot">
+
+    <h2>Archive Extension Management</h2>
+    <p>By default archives use the <code>.7bl</code> extension (e.g. <code>data.7bl</code>), but you can choose any extension or custom filename—you'll still get encrypted, compressed content.</p>
+
+    <h2>User Interface</h2>
+    <p>A simple GUI built with <code>tkinter</code> offers:</p>
+    <ul>
+      <li>File selection dialogs for source files and target folders</li>
+      <li>Input field for your encryption key</li>
+      <li>Buttons to Compress & Encrypt or to Extract & Decrypt</li>
+      <li>Status label for real-time feedback and error messages</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <pre><code class="language-bash"># Clone the repository
+git clone https://github.com/bocaletto-luca/Files-Compressor-Encryption.git
+cd Files-Compressor-Encryption
+
+# Install dependencies
+pip install cryptography</code></pre>
+
+    <h2>Usage</h2>
+    <ol>
+      <li>Launch the app:
+        <pre><code>python main.py</code></pre>
+      </li>
+      <li>To compress & encrypt:
+        <ul>
+          <li>Select source file(s)</li>
+          <li>Enter an encryption key</li>
+          <li>Click <strong>Compress & Encrypt</strong></li>
+        </ul>
+      </li>
+      <li>To extract & decrypt:
+        <ul>
+          <li>Select archive file (<code>.7bl</code> or your custom extension)</li>
+          <li>Enter the same encryption key</li>
+          <li>Click <strong>Extract & Decrypt</strong></li>
+        </ul>
+      </li>
+    </ol>
+
+    <h2>Technical Stack</h2>
+    <ul>
+      <li><code>tkinter</code> – GUI toolkit</li>
+      <li><code>zlib</code> – Data compression</li>
+      <li><code>cryptography.Fernet</code> – Symmetric encryption</li>
+      <li><code>os</code>, <code>sys</code> – File and path handling</li>
+    </ul>
+
+    <footer>
+      <p>© 2025 Bocaletto Luca</p>
+      <p>
+        <a href="https://bocaletto-luca.github.io">bocaletto-luca.github.io</a> |
+        <a href="https://bocalettoluca.altervista.org">bocalettoluca.altervista.org</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
