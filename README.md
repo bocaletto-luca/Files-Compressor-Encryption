@@ -26,6 +26,13 @@ The software offers a simple and intuitive user interface with all the previousl
 
 The software uses Python libraries like tkinter, zlib, and cryptography to handle compression and encryption operations. In case of errors or exceptions, the software displays error messages and details through the status label.
 
-In conclusion, "7bl Compressor with Encryption" is a versatile tool for protecting sensitive data and managing files, with a user-friendly interface that allows users to compress, encrypt, and extract their files effectively and securely. Users have complete control over the management of archived file extensions.
+---
 
-In conclusione, "7bl Compressore con Crittografia" è uno strumento versatile per la protezione dei dati sensibili e la gestione dei file, con una semplice interfaccia utente che consente agli utenti di comprimere, crittografare ed estrarre i loro file in modo efficace e sicuro. Gli utenti hanno il controllo completo sulla gestione delle estensioni dei file archiviati.
+**Note**: Ensure that you have installed all the necessary dependencies before running the application.
+
+**Maintainer Update**
+
+My current GitHub account is **@bocaletto-luca**, which is now the official maintainer of all projects previously published under the **@Elektronoide** account. Please direct any issues, pull requests, or stars to **@bocaletto-luca** for future updates.
+
+---
+
